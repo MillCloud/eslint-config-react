@@ -2,31 +2,23 @@
   "name": "@modyqyw/eslint-config-react",
   "version": "1.0.1",
   "description": "An ESLint shareable config for react.",
-  "main": "index.js",
   "keywords": [
     "eslint",
     "config",
-    "react",
-    "javascript",
-    "typescript"
+    "react"
   ],
-  "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "homepage": "https://github.com/Millcloud/eslint-config-react#readme",
+  "bugs": {
+    "url": "https://github.com/Millcloud/eslint-config-react/issues"
   },
+  "license": "MIT",
+  "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:Millcloud/eslint-config-react.git"
   },
-  "bugs": {
-    "url": "https://github.com/Millcloud/eslint-config-react/issues"
-  },
-  "homepage": "https://github.com/Millcloud/eslint-config-react#readme",
-  "peerDependencies": {
-    "eslint": "~6.8.0"
-  },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "babel-eslint": "^10.1.0",
@@ -39,8 +31,14 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "typescript": "^3.8.3"
   },
+  "peerDependencies": {
+    "eslint": "~6.8.0"
+  },
   "engines": {
     "node": ">=10",
     "npm": ">=6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
