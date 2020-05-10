@@ -10,7 +10,7 @@ An ESLint shareable config for react.
  # for javascript
 npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 -D
 # for typescript
-npm i eslint@~6.8.0 typescript@~3.8.0 @modyqyw/eslint-config-react@~1.0.0 -D
+npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 typescript@~3.8.0 -D
 ```
 
 For yarn, run scripts below.
@@ -19,7 +19,7 @@ For yarn, run scripts below.
 # for javascript
 yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 -D
 # for typescript
-yarn add eslint@~6.8.0 typescript@~3.8.0 @modyqyw/eslint-config-react@~1.0.0 -D
+yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 typescript@~3.8.0 -D
 ```
 
 - Set up.
@@ -37,7 +37,7 @@ module.exports = {
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-- Set up `Settings.json`. Then `F1` => `Format Document`(call vetur for `*.vue` files and prettier for other files) => Save File(call ESLint).
+- Set up `Settings.json`. Then `F1 => Format Document` => `F1 => File: Save`.
 
 ```json
 {
