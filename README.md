@@ -1,6 +1,6 @@
 # @modyqyw/eslint-config-react
 
-An ESLint shareable config for react.
+An ESLint shareable config for react. Also support taro and react-native.
 
 ## Usage
 
@@ -8,19 +8,21 @@ An ESLint shareable config for react.
 
 ```sh
  # for javascript
-npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 -D
+npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 -D
 # for typescript
-npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 typescript@~3.8.0 -D
+npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 typescript@~3.9.0 -D
 ```
 
 For yarn, run scripts below.
 
 ```sh
 # for javascript
-yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 -D
+yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 -D
 # for typescript
-yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.0.0 typescript@~3.8.0 -D
+yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 typescript@~3.9.0 -D
 ```
+
+- Add `tsconfig.json` into the project root if you use typescript.
 
 - Set up.
 
@@ -30,6 +32,11 @@ module.exports = {
   extends: ["@modyqyw/react"],
 };
 ```
+
+## Attention
+
+- You need import React or Taro manually cause eslint won't check this.
+- Not support mobx yet.
 
 ## VSCode
 
@@ -72,11 +79,6 @@ module.exports = {
     "*.wpy": "html",
     "*.json": "jsonc",
     "*.nvue": "vue"
-  },
-  "vetur.format.defaultFormatterOptions": {
-    "prettyhtml": {
-      "wrapAttributes": true
-    }
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
