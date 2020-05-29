@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-react",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "An ESLint shareable config for react. Also support taro and react-native.",
   "keywords": [
     "eslint",
@@ -8,7 +8,9 @@
     "react",
     "taro",
     "react-native",
-    "rn"
+    "rn",
+    "javascript",
+    "typescript"
   ],
   "homepage": "https://github.com/Millcloud/eslint-config-react#readme",
   "bugs": {
