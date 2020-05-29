@@ -116,6 +116,7 @@ module.exports = {
       ],
       rules: {
         "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-console":
           process.env.NODE_ENV === "production" ||
           process.env.NODE_ENV === "pre-production" ||
