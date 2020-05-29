@@ -10,7 +10,9 @@
     "react-native",
     "rn",
     "javascript",
-    "typescript"
+    "typescript",
+    "js",
+    "ts"
   ],
   "homepage": "https://github.com/Millcloud/eslint-config-react#readme",
   "bugs": {
