@@ -10,7 +10,7 @@ An ESLint shareable config for react. Also support taro and react-native.
  # for javascript
 npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 -D
 # for typescript
-npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 typescript@~3.9.0 -D
+npm i eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 typescript@~3.9.0 @typescript-eslint/eslint-plugin@~2.34.0 @typescript-eslint/parser@~2.34.0 -D
 ```
 
 For yarn, run scripts below.
@@ -19,7 +19,7 @@ For yarn, run scripts below.
 # for javascript
 yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 -D
 # for typescript
-yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 typescript@~3.9.0 -D
+yarn add eslint@~6.8.0 @modyqyw/eslint-config-react@~1.1.0 typescript@~3.9.0 @typescript-eslint/eslint-plugin@~2.34.0 @typescript-eslint/parser@~2.34.0 -D
 ```
 
 - Add `tsconfig.json` into the project root if you use typescript.
@@ -35,7 +35,7 @@ module.exports = {
 
 ## Attention
 
-- You need import React or Taro manually cause eslint won't check this.
+- You need to import React or Taro manually cause eslint won't check this.
 - Not support mobx yet.
 
 ## VSCode
@@ -71,14 +71,15 @@ module.exports = {
     "*.js": "javascriptreact",
     "*.ts": "typescriptreact",
     "*.wxml": "html",
-    "*.wxs": "javascript",
+    "*.wxs": "javascriptreact",
     "*.wxss": "css",
     "*.axml": "html",
-    "*.sjs": "javascript",
+    "*.sjs": "javascriptreact",
     "*.acss": "css",
     "*.wpy": "html",
     "*.json": "jsonc",
-    "*.nvue": "vue"
+    "*.nvue": "vue",
+    "*.ux": "vue"
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
