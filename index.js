@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ["eslint:recommended", "airbnb", "airbnb/hooks"],
   root: true,
   parserOptions: {
     parser: "babel-eslint",
   },
+  extends: ["eslint:recommended", "airbnb", "airbnb/hooks"],
   env: {
     browser: true,
     es2020: true,
@@ -98,7 +98,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
+      files: ["**/*.ts", "**/*.tsx"],
       parser: "@typescript-eslint/parser",
       parserOptions: {
         project: "./tsconfig.json",
