@@ -14,16 +14,16 @@
     "js",
     "ts"
   ],
-  "homepage": "https://github.com/Millcloud/eslint-config-react#readme",
+  "homepage": "https://github.com/MillCloud/eslint-config-react#readme",
   "bugs": {
-    "url": "https://github.com/Millcloud/eslint-config-react/issues"
+    "url": "https://github.com/MillCloud/eslint-config-react/issues"
   },
   "license": "MIT",
   "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Millcloud/eslint-config-react.git"
+    "url": "git@github.com:MillCloud/eslint-config-react.git"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "~3.2.0",
