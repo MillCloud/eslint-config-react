@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-react",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "An ESLint shareable config for react. Also support taro and react-native.",
   "keywords": [
     "eslint",
@@ -26,8 +26,8 @@
     "url": "git@github.com:MillCloud/eslint-config-react.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "~3.4.0",
-    "@typescript-eslint/parser": "~3.4.0",
+    "@typescript-eslint/eslint-plugin": "~3.6.0",
+    "@typescript-eslint/parser": "~3.6.0",
     "babel-eslint": "~10.1.0",
     "eslint-config-airbnb": "~18.2.0",
     "eslint-config-airbnb-typescript": "~8.0.0",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@modyqyw/prettier-config": "~1.0.0",
-    "eslint": "~7.3.0",
+    "eslint": "~7.4.0",
     "prettier": "~2.0.0"
   },
   "peerDependencies": {
