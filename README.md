@@ -7,7 +7,7 @@ An ESLint shareable config for react. Also support taro and react-native.
 - Install the config.
 
 ```sh
- # for javascript
+# for javascript
 npm i eslint@~7.7.0 @modyqyw/eslint-config-react@~1.4.0 -D
 # for typescript
 npm i eslint@~7.7.0 @modyqyw/eslint-config-react@~1.4.0 typescript@~4.0.0 -D
