@@ -33,13 +33,12 @@ module.exports = {
             'warn',
             {
               vars: 'all',
-              varsIgnorePattern: '(React|Taro|ComponentType)',
+              varsIgnorePattern: '(React|Taro)',
               args: 'after-used',
               ignoreRestSiblings: true,
             },
           ]
         : 'off',
-    'react/react-in-jsx-scope': 'off',
     'react/sort-comp': [
       'error',
       {
@@ -67,8 +66,8 @@ module.exports = {
             'defaultProps',
             'constructor',
             'getDefaultProps',
-            'state',
             'getInitialState',
+            'state',
             'getChildContext',
             'getDerivedStateFromProps',
             'onLaunch',
@@ -86,7 +85,6 @@ module.exports = {
             'UNSAFE_componentWillUpdate',
             'getSnapshotBeforeUpdate',
             'componentDidUpdate',
-            'componentDidCatch',
             'componentDidCatchError',
             'componentDidNotFound',
             'componentWillUnmount',
@@ -135,14 +133,13 @@ module.exports = {
                 'warn',
                 {
                   vars: 'all',
-                  varsIgnorePattern: '(React|Taro|ComponentType)',
+                  varsIgnorePattern: '(React|Taro)',
                   args: 'after-used',
                   ignoreRestSiblings: true,
                 },
               ]
             : 'off',
         'class-methods-use-this': 'off',
-        'react/react-in-jsx-scope': 'off',
         'react/sort-comp': [
           'error',
           {
@@ -170,8 +167,8 @@ module.exports = {
                 'defaultProps',
                 'constructor',
                 'getDefaultProps',
-                'state',
                 'getInitialState',
+                'state',
                 'getChildContext',
                 'getDerivedStateFromProps',
                 'onLaunch',
@@ -189,7 +186,6 @@ module.exports = {
                 'UNSAFE_componentWillUpdate',
                 'getSnapshotBeforeUpdate',
                 'componentDidUpdate',
-                'componentDidCatch',
                 'componentDidCatchError',
                 'componentDidNotFound',
                 'componentWillUnmount',
