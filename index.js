@@ -39,6 +39,10 @@ module.exports = {
             },
           ]
         : 'off',
+    'react/jsx-filename-extension': [
+      'error',
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
     'react/sort-comp': [
       'error',
       {
