@@ -1,3 +1,5 @@
+const config = require('@modyqyw/prettier-config');
+
 module.exports = {
-  ...require('@modyqyw/prettier-config'),
+  ...config,
 };
