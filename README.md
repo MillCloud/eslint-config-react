@@ -8,18 +8,18 @@ An ESLint shareable config for react. Also support taro and react-native.
 
 ```sh
 # for javascript
-npm i eslint@~7.7.0 @modyqyw/eslint-config-react@~1.4.0 -D
+npm i eslint@~7.8.0 @modyqyw/eslint-config-react@~1.5.0 -D
 # for typescript
-npm i eslint@~7.7.0 @modyqyw/eslint-config-react@~1.4.0 typescript@~4.0.0 -D
+npm i eslint@~7.8.0 @modyqyw/eslint-config-react@~1.5.0 typescript@~4.0.0 -D
 ```
 
 For yarn, run scripts below.
 
 ```sh
 # for javascript
-yarn add eslint@~7.7.0 @modyqyw/eslint-config-react@~1.4.0 -D
+yarn add eslint@~7.8.0 @modyqyw/eslint-config-react@~1.5.0 -D
 # for typescript
-yarn add eslint@~7.7.0 @modyqyw/eslint-config-react@~1.4.0 typescript@~4.0.0 -D
+yarn add eslint@~7.8.0 @modyqyw/eslint-config-react@~1.5.0 typescript@~4.0.0 -D
 ```
 
 - Add `tsconfig.json` into the project root if you use typescript.
