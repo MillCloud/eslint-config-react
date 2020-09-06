@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-react",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "An ESLint shareable config for react. Also support taro and react-native.",
   "keywords": [
     "eslint",
