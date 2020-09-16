@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-react",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "An ESLint shareable config for react. Also support taro and react-native.",
   "keywords": [
     "eslint",
@@ -39,11 +39,11 @@
   },
   "devDependencies": {
     "@modyqyw/prettier-config": "~1.1.0",
-    "eslint": "~7.8.0",
+    "eslint": "~7.9.0",
     "prettier": "~2.1.0"
   },
   "peerDependencies": {
-    "eslint": "~6.8.0 || ~7.8.0",
+    "eslint": "~6.8.0 || ~7.9.0",
     "typescript": "~4.0.0"
   },
   "engines": {
