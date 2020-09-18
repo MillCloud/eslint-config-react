@@ -22,7 +22,7 @@ yarn add eslint@~7.9.0 @modyqyw/eslint-config-react@~1.5.0 -D
 yarn add eslint@~7.9.0 @modyqyw/eslint-config-react@~1.5.0 typescript@~4.0.0 -D
 ```
 
-- Add `tsconfig.json` into the project root if you use typescript.
+- Add `tsconfig.json` into the project root if you use typescript. Check [Intro to the TSConfig Reference](https://www.typescriptlang.org/tsconfig).
 
 - Set up.
 

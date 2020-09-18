@@ -144,6 +144,10 @@ module.exports = {
               ]
             : 'off',
         'class-methods-use-this': 'off',
+        'react/jsx-filename-extension': [
+          'error',
+          { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+        ],
         'react/sort-comp': [
           'error',
           {
