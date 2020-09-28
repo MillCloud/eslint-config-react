@@ -1,7 +1,7 @@
 {
   "name": "@modyqyw/eslint-config-react",
-  "version": "1.5.4",
-  "description": "An ESLint shareable config for react. Also support taro and react-native.",
+  "version": "1.5.5",
+  "description": "An ESLint shareable config for react. Also support next, taro and react-native.",
   "keywords": [
     "eslint",
     "config",
@@ -26,24 +26,24 @@
     "url": "git@github.com:MillCloud/eslint-config-react.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "~4.1.0",
-    "@typescript-eslint/parser": "~4.1.0",
+    "@typescript-eslint/eslint-plugin": "~4.2.0",
+    "@typescript-eslint/parser": "~4.2.0",
     "babel-eslint": "~10.1.0",
     "eslint-config-airbnb": "~18.2.0",
-    "eslint-config-airbnb-typescript": "~10.0.0",
+    "eslint-config-airbnb-typescript": "~11.0.0",
     "eslint-plugin-import": "~2.22.0",
     "eslint-plugin-jsx-a11y": "~6.3.0",
-    "eslint-plugin-react": "~7.20.0",
+    "eslint-plugin-react": "~7.21.0",
     "eslint-plugin-react-hooks": "~4.1.0",
     "typescript": "~4.0.0"
   },
   "devDependencies": {
     "@modyqyw/prettier-config": "~1.1.0",
-    "eslint": "~7.9.0",
+    "eslint": "~7.10.0",
     "prettier": "~2.1.0"
   },
   "peerDependencies": {
-    "eslint": "~6.8.0 || ~7.9.0",
+    "eslint": "~6.8.0 || ~7.10.0",
     "typescript": "~4.0.0"
   },
   "engines": {
