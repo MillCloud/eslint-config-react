@@ -1,3 +1,5 @@
+**DEPRECATED! Check [@modyqyw/eslint-config](https://github.com/MillCloud/eslint-config).**
+
 # @modyqyw/eslint-config-react
 
 An ESLint shareable config for react. Also support taro and react-native.
